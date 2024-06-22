@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+
+/* #808080 - > HEX code */
+body {
+	background-color: #ffffff;
+	font-family: 'Calibri';
+}
+
+.blue-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color:blue;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.blue-btn:hover {
+    background-color: #00ffff0128255;
+}
+
+#red-btn{
+    background-color: #ff0000;
+}
